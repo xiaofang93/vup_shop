@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1623683164745') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bussiness-man:before {
+  content: "\e6ef";
+}
+
+.icon-add:before {
+  content: "\e742";
+}
+
+.icon-certified-supplier:before {
+  content: "\e747";
+}
+
+.icon-electronics:before {
+  content: "\e74e";
+}
+
+.icon-leftbutton:before {
+  content: "\e755";
+}
+
+.icon-Top:before {
+  content: "\e769";
+}
+
+.icon-account-fill:before {
+  content: "\e7aa";
+}
+
+.icon-yinsibaohu:before {
+  content: "\e99b";
+}
+
+.icon-yinzhangrenzheng:before {
+  content: "\e99c";
+}
+
