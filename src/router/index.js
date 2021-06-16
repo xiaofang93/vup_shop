@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 
 const routes = [
   // 重定向
-  { path: "/", redirect: "./login" },
+  // { path: "/", redirect: "./login" },
 
   { path: "/login", component: Login },
   { path: "/home", component: Home },

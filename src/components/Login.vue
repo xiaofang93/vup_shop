@@ -12,6 +12,7 @@
         :rules="loginFormRules"
         label-width="0px"
         class="login_form"
+        
       >
         <!-- 用户名 -->
         <el-form-item prop="username">
@@ -45,7 +46,7 @@ export default {
     return {
       //这是登录表单的数据绑定对象
       loginForm: {
-        username: "admi",
+        username: "admin",
         password: "123456",
       },
       //这是表单的验证规则对象
@@ -72,7 +73,7 @@ export default {
     },
     login() {
       // async 是“异步”的简写，而 await 可以认为是 async wait 的简写。所以应该很好理解 async 用于申明一个 function 是异步的，而 await 用于等待一个异步方法执行完成。
-      this.$refs.loginFormRef.validate(async (valid) => {
+      this.$refs.loginFormRef.validate(async valid=> {
         // console.log(vaild);
         if (!valid) return
         const { data: res } = await this.$http.post("login", this.loginForm)
@@ -85,6 +86,8 @@ export default {
         // 1.2 token 只应在当前网站打开期间生效,所以将 token保存在sessionStorage中
         // console.log(res);
         window.sessionStorage.setItem('token',res.data.token);
+
+       
         // 2 通过编程式导航跳转到后台主页,路由地址是/home
         this.$router.push("/home")
       })

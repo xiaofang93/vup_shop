@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1623683164745') format('truetype');
+  src: url('iconfont.ttf?t=1623853809865') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +9,70 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kefuyouxian:before {
+  content: "\3437";
+}
+
+.icon-bangzhuzhongxin:before {
+  content: "\3469";
+}
+
+.icon-nvxie:before {
+  content: "\f0043";
+}
+
+.icon-yundong:before {
+  content: "\f0047";
+}
+
+.icon-shanchu:before {
+  content: "\f014a";
+}
+
+.icon-zanxuanzhong:before {
+  content: "\f014b";
+}
+
+.icon-31shoucang:before {
+  content: "\f01ab";
+}
+
+.icon-31shouyexuanzhong:before {
+  content: "\f01d5";
+}
+
+.icon-31chanpincanshu:before {
+  content: "\f0202";
+}
+
+.icon-31huiyuan:before {
+  content: "\f0215";
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-detail-fill:before {
+  content: "\e850";
+}
+
+.icon-folder-fill:before {
+  content: "\e85e";
+}
+
+.icon-fund-fill:before {
+  content: "\e860";
+}
+
+.icon-lock-fill:before {
+  content: "\e86a";
+}
+
+.icon-CodeSandbox:before {
+  content: "\e87e";
 }
 
 .icon-bussiness-man:before {
