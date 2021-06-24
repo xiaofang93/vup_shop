@@ -10,7 +10,8 @@ import { Button, Form, FormItem, Input, Message,Container,Header,Aside,Main,Menu
     Table,
     TableColumn,Switch,Tooltip,
     Pagination,
-    Dialog
+    Dialog,
+    MessageBox
 
 } from "element-ui"
 
@@ -40,3 +41,4 @@ Vue.use(Dialog)
 // 把Message挂载Vue原型对象上
 // 这样每个组件都可以通过 this.$message 访问
 Vue.prototype.$message = Message
+Vue.prototype.$confirm= MessageBox.confirm
