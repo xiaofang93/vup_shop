@@ -11,7 +11,7 @@ import { Button, Form, FormItem, Input, Message,Container,Header,Aside,Main,Menu
     TableColumn,Switch,Tooltip,
     Pagination,
     Dialog,
-    MessageBox
+    MessageBox,Tag
 
 } from "element-ui"
 
@@ -37,6 +37,7 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
 
 // 把Message挂载Vue原型对象上
 // 这样每个组件都可以通过 this.$message 访问
