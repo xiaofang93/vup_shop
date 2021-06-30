@@ -1,19 +1,36 @@
 import Vue from "vue"
 
 // Message弹框提示组件
-import { Button, Form, FormItem, Input, Message,Container,Header,Aside,Main,Menu,
-    Submenu,
-    MenuItem, 
-    Breadcrumb,
-    BreadcrumbItem,
-    Card,Row,Col,
-    Table,
-    TableColumn,Switch,Tooltip,
-    Pagination,
-    Dialog,
-    MessageBox,Tag,Tree,
-    Select,Option
-
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Menu,
+  Submenu,
+  MenuItem,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Switch,
+  Tooltip,
+  Pagination,
+  Dialog,
+  MessageBox,
+  Tag,
+  Tree,
+  Select,
+  Option,
+  Cascader,
 } from "element-ui"
 
 Vue.use(Button)
@@ -42,8 +59,9 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 // 把Message挂载Vue原型对象上
 // 这样每个组件都可以通过 this.$message 访问
 Vue.prototype.$message = Message
-Vue.prototype.$confirm= MessageBox.confirm
+Vue.prototype.$confirm = MessageBox.confirm
