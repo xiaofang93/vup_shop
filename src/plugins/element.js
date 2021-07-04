@@ -31,6 +31,9 @@ import {
   Select,
   Option,
   Cascader,
+  Alert,
+  Tabs,
+  TabPane,
 } from "element-ui"
 
 Vue.use(Button)
@@ -60,6 +63,9 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 // 把Message挂载Vue原型对象上
 // 这样每个组件都可以通过 this.$message 访问
