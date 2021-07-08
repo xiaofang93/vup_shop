@@ -38,7 +38,8 @@ import {
   Step,
   CheckboxGroup,
   Checkbox,
-  Upload
+  Upload,
+  Timeline
 } from "element-ui"
 
 Vue.use(Button)
@@ -76,6 +77,7 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
 
 // 把Message挂载Vue原型对象上
 // 这样每个组件都可以通过 this.$message 访问
